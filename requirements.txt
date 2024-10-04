@@ -1,4 +1,4 @@
-Pandas version: 2.2.2
-NumPy version: 1.26.4
-Seaborn version: 0.13.1
-Streamlit version: 1.37.1
+pandas==2.2.2
+numPy==1.26.4
+seaborn==0.13.1
+streamlit==1.37.1
