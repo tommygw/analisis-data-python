@@ -32,8 +32,8 @@ def by_season(day_df):
     season_df = day_df.groupby(by="season")["count_total"].sum().reset_index() 
     return season_df
 
-days_df = pd.read_csv("day_clean_ver.csv")
-hours_df = pd.read_csv("hour_clean_ver.csv")
+days_df = pd.read_csv("dashboard/day_clean_ver.csv")
+hours_df = pd.read_csv("dashboard/hour_clean_ver.csv")
 
 days_df["dteday"] = pd.to_datetime(days_df["dteday"])
 hours_df["dteday"] = pd.to_datetime(hours_df["dteday"])
