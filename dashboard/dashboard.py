@@ -44,7 +44,7 @@ max_date_days = days_df["dteday"].max()
 
 
 with st.sidebar:
-    st.image("../images/bicycle.jpg", caption="Bike Sharing", use_column_width=True)
+    st.image("images/bicycle.jpg", caption="Bike Sharing", use_column_width=True)
     start_date, end_date = st.date_input('Rentang Waktu', value=(min_date_days, max_date_days), min_value=min_date_days, max_value=max_date_days)
 
 
